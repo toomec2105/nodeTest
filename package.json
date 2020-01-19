@@ -1,0 +1,22 @@
+{
+  "name": "test1",
+  "version": "1.0.0",
+  "description": "My first node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx parcel src/index.html",
+    "build": "npx parcel build src/index.html"
+  },
+  "author": "Tomek",
+  "license": "ISC",
+  "dependencies": {
+    "babel": "^6.23.0",
+    "lodash": "^4.17.15",
+    "parcel-bundler": "^1.12.4"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.7.7",
+    "@babel/core": "^7.7.7"
+  }
+}
